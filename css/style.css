@@ -7,13 +7,19 @@
     font-family: 'Roboto', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 500;
+}
+
 
 /* UTILITIES */
 
 
 .container {
-    position: relative;
     width: 1200px;   
+    margin: 0 auto;
 }
 
 
@@ -23,8 +29,15 @@
     clear: both;
 }
 
-.float-left {
-    float:left
+.floated-left {
+    float:left;
+}
+
+
+.inline-list .list-item {
+    display: inline-block;
+    list-style: none;
+    color: white;
 }
 
 /* HEADER */
@@ -36,14 +49,28 @@
      background-color: blue;
  }
 
- .main-header .logo {
+ .main-header .logo.floated-left {
      width: 15%;
      background-color: rgba(9, 37, 196, 0.15);
  }
 
+ .main-header .logo img {
+     vertical-align: middle;
+ }
+
  .main-header .nav-center {
      width: 45%;
-     background-color:  rgba(9, 37, 196, 0.15); }
+     background-color:  rgba(9, 37, 196, 0.15); 
+}
+ 
+
+.list-item a {
+    text-decoration: none;
+}
+
+.list-item li:last-child {
+    margin-right: 0;
+}
 
  .main-header .nav-right {
     width: 40%;
