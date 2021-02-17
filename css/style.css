@@ -61,7 +61,10 @@ h3 {
      width: 45%;
      background-color:  rgba(9, 37, 196, 0.15); 
 }
- 
+
+.inline-list .list-item {
+    margin-right: 20px;
+}
 
 .list-item a {
     text-decoration: none;
