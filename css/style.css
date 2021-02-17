@@ -150,7 +150,7 @@ li a {
 
 .gray.container {
     width: 100%;
-    padding: 25px;
+    padding: 10px;
     background-color: lightgray;
 }
 
@@ -162,10 +162,12 @@ li a {
 .title {
     font-size: 25px;
     color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .short-paragraph {
-    padding-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     color: grey;
 }
@@ -183,5 +185,27 @@ li a {
 .image {
     width: 200px;
     height: 200px;
-    padding-bottom: 20px;;
+    padding-bottom: 10px;
+}
+
+.column-title {
+    font-size: 22px;
+    color: green;
+}
+
+
+/* LAST 2 FLOATED COLUMNS */
+
+.columns-section .container .clearfix {
+    padding-top: 40px;
+}
+
+
+.mountain-pic {
+    width: 50%;
+}
+
+.inline {
+    display: inline-block;
+    width: 50%;
 }
