@@ -61,17 +61,20 @@ h3 {
 
 /* HEADER */
 
+header {
+    background: #191970;
+}
+
  .main-header {
      line-height: 60px;
      text-transform: uppercase;
      font-size: 12px;
-     background-color: blue;
+     background-color: rgba(9, 37, 196, 0.15);
  }
 
  .main-header .logo.floated-left {
      width: 15%;
-     background-color: rgba(9, 37, 196, 0.15);
- }
+     }
 
  .main-header .logo img {
      vertical-align: middle;
@@ -79,7 +82,6 @@ h3 {
 
 .main-header .nav-center {
      width: 45%;
-     background-color:  rgba(9, 37, 196, 0.15); 
 }
 
 .main-header a.button {
@@ -115,7 +117,7 @@ li a {
 
  .jumbotron {
      height: 480px;
-     background-color: blue;
+     background-color:#191970;
      background-image: url("../img/background-header.png");
      background-size: contain;
      background-repeat: no-repeat;
