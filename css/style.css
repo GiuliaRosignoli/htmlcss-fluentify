@@ -145,3 +145,27 @@ li a {
     font-size: 40px;
     color: white;
 }
+
+/*SECTION */
+
+.gray.container {
+    width: 100%;
+    padding: 25px;
+    background-color: lightgray;
+}
+
+.text {
+    text-align: center;
+}
+
+
+.title {
+    font-size: 25px;
+    color: black;
+}
+
+.short-paragraph {
+    padding-top: 10px;
+    font-size: 18px;
+    color: grey;
+}
