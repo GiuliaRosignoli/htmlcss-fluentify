@@ -169,3 +169,19 @@ li a {
     font-size: 18px;
     color: grey;
 }
+
+/* COLUMNS */
+
+.column {
+    width: calc(100% / 3);
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;;
+}
