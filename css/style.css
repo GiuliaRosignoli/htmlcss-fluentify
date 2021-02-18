@@ -177,7 +177,7 @@ li a {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 10px;
-    background-color: #A9A9A9;
+    background-color: #A9A9;
 }
 
 .text {
@@ -222,8 +222,13 @@ li a {
 }
 
 .column-title {
+    padding-bottom: 20px;
     font-size: 22px;
     color: green;
+}
+
+.prg::before {
+    content: "__________";
 }
 
 
@@ -266,7 +271,7 @@ li a {
     margin-top: 47px;
     padding: 32px;
     line-height: 30px;
-    background-color: #A9A;
+    background-color: #A9A9;
     
 }
 
