@@ -7,6 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 h1,
 h2,
 h3 {
@@ -37,6 +38,7 @@ h3 {
 .inline-list li {
     display: inline-block;
     list-style: none;
+    padding: 8px;
 }
 
 /* BUTTONS */
@@ -44,10 +46,10 @@ h3 {
 .button {
     display: inline-block;
     min-width: 100px;
-    padding: 8px;
+    padding: 0 2px;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
     color: white;
     border: 1px solid white;
     border-radius: 5px;
@@ -62,21 +64,25 @@ h3 {
 /* HEADER */
 
 header {
-    background: #191970;
+    position: fixed;
+    background-color: rgba(9, 37, 196, 0.15);
+    z-index: 10;
+
 }
 
  .main-header {
      line-height: 60px;
      text-transform: uppercase;
      font-size: 12px;
-     background-color: rgba(9, 37, 196, 0.15);
- }
+    
+}
 
  .main-header .logo.floated-left {
      width: 15%;
-     }
+ }
 
- .main-header .logo img {
+
+.main-header .logo img {
      vertical-align: middle;
  }
 
@@ -88,13 +94,16 @@ header {
     line-height: 12px;
 }
 
+
 .main-header a:not(.button):hover {
     color: purple;
 }
 
+
 .inline-list .li {
-    margin-right: 20px;
+    margin: 10px;
 }
+
 
 li a {
     text-decoration: none;
@@ -131,6 +140,7 @@ li a {
     background: rgba(9, 37, 196, 0.15);
 }
 
+
 .jumbotron .jumbotron-content {
     position: absolute;
     top: 50%;
@@ -148,10 +158,11 @@ li a {
 
 /*SECTION */
 
+
 .gray.container {
     width: 100%;
     padding: 10px;
-    background-color: lightgray;
+    background-color: #A9A9A9;
 }
 
 .text {
@@ -169,16 +180,20 @@ li a {
 .short-paragraph {
     margin-bottom: 10px;
     font-size: 18px;
-    color: grey;
+    color: #696969;
 }
+
+.row {
+   margin-top: 20px;
+   padding-bottom: 30px;
+}
+
 
 /* COLUMNS */
 
 .column {
     width: calc(100% / 3);
-    margin-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 50px;
     text-align: center;
 }
 
@@ -196,7 +211,7 @@ li a {
 
 /* LAST 2 FLOATED COLUMNS */
 
-.columns-section .container .clearfix {
+.second .columns-section .container .clearfix {
     padding-top: 40px;
 }
 
@@ -208,4 +223,8 @@ li a {
 .inline {
     display: inline-block;
     width: 50%;
+}
+
+.title.bottom {
+    line-height: 30px;
 }
