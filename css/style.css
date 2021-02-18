@@ -225,12 +225,14 @@ li a {
 
 
 .second.inline.floated-left p {
+    margin-bottom: 30px;
     color: #696969;
 }
 
-.second.inline.floated-left .title.bottom a {
-   padding-top: 60px;
-}
+.second.inline .test-link {
+   color: blue;
+} 
+
 
 
 .mountain-pic {
@@ -251,8 +253,8 @@ li a {
 /* FINAL */
 
 .gray.bottom {
-    margin-top: 50px;
-    padding: 40px;
+    margin-top: 47px;
+    padding: 32px;
     line-height: 30px;
     background-color: #A9A;
     
@@ -264,4 +266,8 @@ li a {
 
 .right-select:last-child {
     text-align: right;
+}
+
+.final.green.button {
+    margin-left: 15px;
 }
