@@ -171,10 +171,11 @@ li a {
 
 
 .title {
-    font-size: 25px;
-    color: black;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+    
 }
 
 .short-paragraph {
@@ -193,8 +194,10 @@ li a {
 
 .column {
     width: calc(100% / 3);
+    margin-top: 20px;
     padding: 20px 50px;
     text-align: center;
+    color: #696969;
 }
 
 .image {
@@ -216,15 +219,48 @@ li a {
 }
 
 
+.second.inline.floated-left p {
+    color: #696969;
+}
+
+.second.inline.floated-left .title.bottom a {
+   padding-top: 60px;
+}
+
+
 .mountain-pic {
     width: 50%;
 }
+
 
 .inline {
     display: inline-block;
     width: 50%;
 }
 
+
 .title.bottom {
     line-height: 30px;
+}
+
+/* FINAL */
+
+.gray.container.bottom {
+    position: relative;
+    height: 100px;
+    margin-top: 60px;
+
+}
+
+.gray.container.bottom h2 {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+} 
+
+
+.gray.container.bottom .right-select {
+    position: absolute;
+    top: 50%;
+    right: 200px;
 }
