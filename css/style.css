@@ -271,3 +271,10 @@ li a {
 .final.green.button {
     margin-left: 15px;
 }
+
+#help-button {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 10;
+}
