@@ -141,7 +141,7 @@ li a {
 .jumbrotron .container {
     position: relative;
     height: 100%;
-    background: #19;
+    background: #191970;
 }
 
 
@@ -155,7 +155,7 @@ li a {
 
 .jumbotron .jumbotron-content h1 {
     width: 60%;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
     font-size: 40px;
     color: white;
 }
@@ -250,8 +250,7 @@ li a {
 /* FINAL */
 
 .gray {
-    line-height: 100px;
-    margin-top: 50px;
+    line-height: 30px;
     background-color: #A9A;
 }
 
