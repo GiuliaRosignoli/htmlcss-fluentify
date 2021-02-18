@@ -7,9 +7,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 body {
     padding-top: 96px;
 }
+
 
 h1,
 h2,
@@ -44,7 +46,9 @@ h3 {
     padding: 8px;
 }
 
+
 /* BUTTONS */
+
 
 .button {
     display: inline-block;
@@ -63,6 +67,11 @@ h3 {
     border: 1px solid transparent;
 }
 
+.button.green:hover {
+   -webkit-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 /* HEADER */
 
@@ -159,6 +168,7 @@ li a {
     font-size: 40px;
     color: white;
 }
+
 
 /*SECTION */
 
@@ -267,6 +277,9 @@ li a {
 .right-select:last-child {
     text-align: right;
 }
+
+
+/* BUTTONS AT THE BOTTOM OF THE PAGE */
 
 .final.green.button {
     margin-left: 15px;
