@@ -165,7 +165,8 @@ li a {
 
 .gray.container {
     width: 100%;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     background-color: #A9A9A9;
 }
 
@@ -183,7 +184,7 @@ li a {
 }
 
 .short-paragraph {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 18px;
     color: #696969;
 }
@@ -249,9 +250,12 @@ li a {
 
 /* FINAL */
 
-.gray {
+.gray.bottom {
+    margin-top: 50px;
+    padding: 40px;
     line-height: 30px;
     background-color: #A9A;
+    
 }
 
 .right-select {
